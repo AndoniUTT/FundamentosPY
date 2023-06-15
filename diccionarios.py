@@ -12,5 +12,7 @@ print(team)
 print(team["name"])
 print(team["players"])
 team["players"].append("Kevin")
+team["name"] = "Manchester City"
+team["League"] = "Premiere League"
 print(team)
 
